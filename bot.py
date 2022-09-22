@@ -10,11 +10,11 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(name)s - [%(levelname)s] - %(message)s'
 )
-LOGGER = logging.getLogger(__name__)
+LOGGER = logging.getLogger(king_8w)
 
-api_id = int(os.environ.get("APP_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("TOKEN")
+api_id = int(os.environ.get("11733651"))
+api_hash = os.environ.get("5d436a95facd115f25e1eb185cb11f4e")
+bot_token = os.environ.get(" 5791807882:AAF6GMAtl8P_Fu6X8wfYuuqdJ-5cWPV6CP8")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
@@ -35,8 +35,8 @@ async def start(event):
     link_preview=False,
     buttons=(
        [
-        Button.url(' support', 'https://t.me/chucky_support'),
-        Button.url('creater', 'https://t.me/kittu_the_criminall')
+        Button.url(' support', 'https://t.me/WordChattingGroupWCG'),
+        Button.url('creater', 'https://t.me/king_8w')
     ],
     )
   )
@@ -49,8 +49,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url(' support', 'https://t.me/chucky_support'),
-        Button.url('creater', 'https://t.me/kittu_the_criminall')
+        Button.url(' support', 'https://t.me/WordChattingGroupWCG'),
+        Button.url('channel', 'https://t.me/WorldchattingGroup_x')
       ]
     )
   )
